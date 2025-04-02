@@ -1,0 +1,4 @@
+test/mapper/FooMapper.class
+test/mapper/FooMapperImpl.class
+test/dto/FooDto.class
+test/domain/Foo.class
