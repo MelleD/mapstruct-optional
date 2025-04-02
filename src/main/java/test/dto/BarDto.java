@@ -2,14 +2,12 @@ package test.dto;
 
 import java.util.Optional;
 
-public class FooDto {
+public class BarDto {
 
-   private final BarDto barObject;
    private Optional<String> bar;
 
-   public FooDto( final Optional<String> bar, final BarDto barObject ) {
+   public BarDto( final Optional<String> bar ) {
       this.bar = bar;
-      this.barObject = barObject;
    }
 
    public void setBar( final Optional<String> bar ) {
@@ -18,9 +16,5 @@ public class FooDto {
 
    public Optional<String> getBar() {
       return bar;
-   }
-
-   public BarDto getBarObject() {
-      return barObject;
    }
 }

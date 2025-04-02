@@ -1,4 +1,9 @@
+test/dto/BarDto.class
+test/domain/Bar.class
+test/domain/OptionalHelper.class
 test/mapper/FooMapper.class
+test/mapper/BarMapperImpl.class
 test/mapper/FooMapperImpl.class
 test/dto/FooDto.class
+test/mapper/BarMapper.class
 test/domain/Foo.class
